@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Aleksey Krasnobaev</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="parent">
+
+</div>
+
+<div id="chooser" class="overlay light">
+  <a class="cancel" href="#"></a>
+  <div class="popup">
+    <h2>Set timeblock</h2>
+    <div class="content">
+      <p>Click outside to close.<br>
+        <!-- <input type="checkbox"> Sync to calendar<br> -->
+        Description: <input type="text" name="desc" id="desc"><br>
+      </p>
+      <div class="tab-frame">
+        <input type="radio" checked name="tab" id="self">
+        <label for="self">self</label>
+
+        <input type="radio" name="tab" id="road">
+        <label for="road">road</label>
+
+        <input type="radio" name="tab" id="job">
+        <label for="job">job</label>
+
+        <input type="radio" name="tab" id="music">
+        <label for="music">music</label>
+
+        <input type="radio" name="tab" id="none">
+        <label for="none">none</label>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
